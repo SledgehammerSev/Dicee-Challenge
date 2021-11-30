@@ -4,7 +4,7 @@ possibleRolls = dice.length;
 
 //Dice Roll process
 function rollDice(dice) {
-randomNumber = Math.round(Math.random() * possibleRolls + 1); //+ 1 because Math.random is 
+randomNumber = Math.floor(Math.random() * possibleRolls + 1); //+ 1 because Math.random is 
 return randomNumber
 }
 
